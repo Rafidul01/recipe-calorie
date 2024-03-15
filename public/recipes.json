@@ -1,0 +1,100 @@
+[
+    {
+      "recipe_id": 1,
+      "recipe_name": "Garlic Butter Shrimp Pasta",
+      "short_description": "A delicious pasta dish with succulent shrimp in a garlic butter sauce.",
+      "ingredients": [
+        "300g shrimp",
+        "250g linguine pasta",
+        "4 cloves garlic, minced",
+        "1/4 cup butter",
+        "1/4 cup fresh parsley, chopped",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": "25 min",
+      "calories": "380 calories",
+      "recipe_image": "https://i.ibb.co/NFHb1FX/sorin-popa-XAxv-Kp0tdw-U-unsplash.jpg"
+    },
+    {
+      "recipe_id": 2,
+      "recipe_name": "Caprese Salad",
+      "short_description": "A simple yet elegant salad showcasing fresh tomatoes, mozzarella, and basil.",
+      "ingredients": [
+        "3 large tomatoes, sliced",
+        "250g fresh mozzarella cheese, sliced",
+        "1/4 cup fresh basil leaves",
+        "2 tablespoons balsamic glaze",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": "15 min",
+      "calories": "220 calories",
+      "recipe_image": "https://i.ibb.co/YjzYXpk/bryony-elena-d-JGe-ISqe-Eiw-unsplash.jpg"
+    },
+    {
+      "recipe_id": 3,
+      "recipe_name": "Vegetable Stir Fry",
+      "short_description": "A colorful and nutritious stir-fry with an assortment of fresh vegetables.",
+      "ingredients": [
+        "1 bell pepper, sliced",
+        "1 carrot, sliced",
+        "1 onion, sliced",
+        "100g broccoli florets",
+        "100g snow peas",
+        "3 tablespoons soy sauce",
+        "2 tablespoons sesame oil"
+      ],
+      "preparing_time": "20 min",
+      "calories": "200 calories",
+      "recipe_image": "https://i.ibb.co/rM9c9HZ/k8-e-Yfcfdgpc-FY-unsplash.jpg"
+    },
+    {
+      "recipe_id": 4,
+      "recipe_name": "Homemade Margherita Pizza",
+      "short_description": "A classic pizza topped with fresh tomatoes, mozzarella, and basil.",
+      "ingredients": [
+        "1 pizza dough",
+        "1/2 cup marinara sauce",
+        "200g fresh mozzarella cheese, sliced",
+        "2 tomatoes, sliced",
+        "1/4 cup fresh basil leaves",
+        "2 tablespoons olive oil"
+      ],
+      "preparing_time": "30 min",
+      "calories": "300 calories",
+      "recipe_image": "https://i.ibb.co/r5xVTQF/mahyar-mirghasemi-Xd-i-J4-NQw-UI-unsplash.jpg"
+    },
+    {
+      "recipe_id": 5,
+      "recipe_name": "Chicken Caesar Salad",
+      "short_description": "A classic salad featuring grilled chicken, crisp romaine lettuce, and Caesar dressing.",
+      "ingredients": [
+        "2 chicken breasts, grilled and sliced",
+        "1 head romaine lettuce, chopped",
+        "1/2 cup croutons",
+        "1/4 cup grated Parmesan cheese",
+        "1/4 cup Caesar dressing"
+      ],
+      "preparing_time": "20 min",
+      "calories": "320 calories",
+      "recipe_image": "https://i.ibb.co/jhL0YXj/logan-jeffrey-1k-Os-Qoehj-ZA-unsplash.jpg"
+    },
+    {
+      "recipe_id": 6,
+      "recipe_name": "Chocolate Chip Cookies",
+      "short_description": "Classic chocolate chip cookies that are soft and chewy on the inside, crisp on the outside.",
+      "ingredients": [
+        "1 cup butter, softened",
+        "3/4 cup granulated sugar",
+        "3/4 cup brown sugar",
+        "2 eggs",
+        "1 teaspoon vanilla extract",
+        "2 1/4 cups all-purpose flour",
+        "1 teaspoon baking soda",
+        "1/2 teaspoon salt",
+        "2 cups semisweet chocolate chips"
+      ],
+      "preparing_time": "40 min",
+      "calories": "150 calories per cookie",
+      "recipe_image": "https://i.ibb.co/x1sWmmS/amirali-mirhashemian-x6-Vu-EH2np-Hw-unsplash.jpg"
+    }
+]
