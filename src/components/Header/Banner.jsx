@@ -2,7 +2,7 @@ import bannerImg from "../../images/banner-img.jpg"
 const Banner = () => {
     return(
         
-        <div className="hero min-h-screen rounded-[24px] mb-[100px]" style={{backgroundImage: `linear-gradient(0deg,rgba(21, 11, 43, 0.90) 0%,rgba(21, 11, 43, 0.00) 100%),url(${bannerImg});`}}>
+        <div className="hero min-h-screen rounded-[24px] mb-[100px]" style={{backgroundImage: `linear-gradient(0deg,rgba(21, 11, 43, 0.90) 0%,rgba(21, 11, 43, 0.00) 100%),url(${bannerImg})`}}>
   <div className="hero-content text-center text-neutral-content">
     <div className="lg:max-w-[897px] space-x-4">
       <h1 className="mb-5 text-5xl font-bold">Discover an exceptional cooking class tailored for you!</h1>
