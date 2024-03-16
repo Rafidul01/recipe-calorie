@@ -1,12 +1,21 @@
+import Title from "./Title";
+import Recipe from "./Recipe";
 const Recipes = () =>{
     return(
         <div className="container mx-auto">
-            <div className="text-center lexend mb-[48px]">
-                <h1 className="text-[#150B2B] font-semibold text-[40px]">Our Recipes</h1>
-                <p className="max-w-[823px] text-[#150B2B99] text-base font-normal mx-auto">Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque. </p>
+            <Title></Title>
+
+            <div>
+                <div className="grid grid-cols-3 mx-auto">
+                    <Recipe></Recipe>
+                    <Recipe></Recipe>
+                    <Recipe></Recipe>
+                </div>
+                <div>
+                    
+                </div>
             </div>
         </div>
-
     )
 }
 export default Recipes;
