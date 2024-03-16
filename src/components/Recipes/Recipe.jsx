@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { MdOutlineWatchLater } from "react-icons/md";
 import { RiFireLine } from "react-icons/ri";
-const Recipe = ({card}) =>{
+const Recipe = ({card, handleWantToCook}) =>{
   // eslint-disable-next-line react/prop-types
   const{recipe_name, short_description, ingredients, preparing_time, calories, recipe_image} = card;
     return(
@@ -17,7 +17,7 @@ const Recipe = ({card}) =>{
       <h1 className="lexend text-[#282828] text-lg font-medium mb-4">Ingredients: {ingredients.length}</h1>
       <ul className="list-disc fira-sans text-[#878787] text-lg ml-6 font-normal">
         {
-          ingredients.map(ingredient => <li key={ingredient.id}>{ingredient}</li>)
+          ingredients.map(ingredient => <li key={ingredient}>{ingredient}</li>)
         }
     </ul>
     </div>
@@ -27,7 +27,7 @@ const Recipe = ({card}) =>{
       <p className="flex items-center gap-4"><RiFireLine /> {calories} calories</p>
     </div>
     <div className="card-actions">
-      <button className="btn bg-[#0be58a] rounded-[50px] text-[#150B2B] font-medium text-lg">Want to Cook</button>
+      <button onClick={()=>handleWantToCook(card)} className="btn bg-[#0be58a] rounded-[50px] text-[#150B2B] font-medium text-lg">Want to Cook</button>
     </div>
   </div>
 </div>
