@@ -18,7 +18,7 @@ const Recipes = () =>{
             toast.success("Added Successfully !");
         } 
         else{
-            toast.warn("Recipe already exits !");
+            toast.error("Recipe already exits !");
         }
         // console.log(carts);
         // console.log(carts.length);
@@ -27,11 +27,18 @@ const Recipes = () =>{
     const[time, setTime] = useState(0);
     const[cal, setCal] = useState(0);
     const handelCurrentlyCooking = Recipe => {
+        const exist = currentlyCooking.find(x => x.recipe_id === Recipe.recipe_id);
         const newCart = carts.filter(x => x.recipe_id !== Recipe.recipe_id)
         setCarts(newCart);
+        if(exist){
+            toast.warn("Already Cooking !");
+        }
+        else{
         setTime(time+parseInt(Recipe.preparing_time));
         setCal(cal+parseInt(Recipe.calories));
         setCurrentlyCooking([...currentlyCooking, Recipe]);
+        toast.success("Cooking Started Successfully !");
+        }
         // console.log(time, cal);
     }
     return(

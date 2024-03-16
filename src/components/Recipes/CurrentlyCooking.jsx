@@ -5,7 +5,7 @@ const CurrentlyCooking = ({currentlyCooking, time , cal}) => {
     <div>
       <h1 className="text-center text-[#282828] text-2xl font-semibold lexend mt-8">Currently cooking: {currentlyCooking.length}</h1>
       <hr className="max-w-[350px] mx-auto mt-4 mb-6"/>
-      <div className="fira-sans">
+      <div className="overflow-x-auto fira-sans">
         <table className="table">
           {/* head */}
           <thead className="text-[#878787] font-medium">
@@ -16,7 +16,7 @@ const CurrentlyCooking = ({currentlyCooking, time , cal}) => {
               <th>Calories</th>
             </tr>
           </thead>
-          <tbody className="text-[#282828B2] text-base font-normal  bg-slate-100">
+          <tbody className="text-[#282828B2] text-base font-normal bg-gray-100">
             {/* row 1 */}
             {
               

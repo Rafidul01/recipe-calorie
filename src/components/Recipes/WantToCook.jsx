@@ -19,7 +19,7 @@ const WantToCook = ({carts, handelCurrentlyCooking}) => {
               <th></th>
             </tr>
           </thead>
-          <tbody className="text-[#282828B2] text-base font-normal  bg-slate-100">
+          <tbody className="text-[#282828B2] text-base font-normal  bg-gray-100">
             {/* row 1 */}
             {
               
